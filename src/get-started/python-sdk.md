@@ -8,7 +8,7 @@ behaviors.
 Explain the SDK here
 ```
 # Entities I/O
-### Sensors
+## Sensors
 
 Sensors have a common API that comprises several methods we can call.
 
@@ -28,7 +28,7 @@ Sensors have a common API that comprises several methods we can call.
     - `timeout: float = None` to specify the timeout for the `block` parameter.
 
 
-#### Camera
+### Camera
 The camera API allows us to obtain images from the Duckiematrix.
 The obtained images by default are JPEG-encoded. The API is available to any entity of type `CameraEnabledRobot`.
 
@@ -51,7 +51,7 @@ frame: bytes # raw content of the image
 
 
 
-#### Time of Flight 
+### Time of Flight 
 The Time of Flight sensors provide the range measured by the virtual entity.
 In this case we can again use the `.capture()` method to obtain them and the message obtained will be of type `TimeOfFlightRange`:
 
@@ -71,17 +71,17 @@ WheelEncoderTicks
 ticks: int  # Encoder ticks
 ```
 
-### Actuators
+## Actuators
 
 Actuators allow us to interact with the Duckiematrix environment. The Duckiebots have wheel motors to control the two wheels and LEDs to visually communicate with humans and other Duckiebots.
 
-#### Wheels driver
+### Wheels driver
 
 ```{todo}
 To update once the wheels communication protocol has been defined.
 ```
 
-#### LEDs
+### LEDs
 The LEDs configuration reflects the one of the Duckiebots, allowing to control 5 LEDs indexed from `0` to `4`.
 In this case the object that allows us to manipulate all the different LEDs is of type `Lights`. This object contains each LED as a `LED` object; we can retrieve each LED object `i` by calling `<Lights>.light<i>`. 
 
