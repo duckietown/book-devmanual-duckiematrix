@@ -1,0 +1,9 @@
+#site-navigation > div.bd-sidebar__content > div.bd-sidebar__top > div.navbar-brand-box > a {
+    border-radius: 12px;
+    background-color: #0b0a0a12;
+    border: 3px solid #5d9d14;
+}
+
+#site-navigation > div.bd-sidebar__content > div.bd-sidebar__top > div.navbar-brand-box > a > img {
+    padding: 14px;
+}

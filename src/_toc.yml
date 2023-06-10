@@ -4,21 +4,44 @@
 format: jb-book
 root: intro
 parts:
-    - caption: PART_ONE
-      maxdepth: 2
-      numbered: False
-      chapters:
-          - file: part_1/chapter_a/index
-            sections:
-                - file: part_1/chapter_a/section_1
-    - caption: PART_TWO
-      maxdepth: 2
-      numbered: False
-      chapters:
-          - file: part_2/chapter_b/index
-            sections:
-                - file: part_2/chapter_b/section_1
-          - file: part_2/chapter_c/index
-            sections:
-                - file: part_2/chapter_c/section_1
-                - file: part_2/chapter_c/section_2
+    -   caption: Introduction
+        maxdepth: 2
+        numbered: False
+        chapters:
+            -   file: introduction/capabilities
+            -   file: introduction/architecture
+            -   file: introduction/sides
+    -   caption: Get Started
+        maxdepth: 2
+        numbered: False
+        chapters:
+            -   file: get-started/installation
+            -   file: get-started/run
+            -   file: get-started/world-links
+            -   file: get-started/modes
+            -   file: get-started/custom-map
+            -   file: get-started/python-sdk
+            -   file: examples/intro
+                sections:
+                    -   file: examples/vehicle/calibration/camera
+                    -   file: examples/vehicle/io/camera
+                    -   file: examples/vehicle/io/led
+                    -   file: examples/vehicle/demos/lane-following
+
+    -   caption: Intermediate
+        maxdepth: 2
+        numbered: False
+        chapters:
+            -   file: intermediate/remote-engine
+            -   file: intermediate/scriptable-maps
+            -   file: intermediate/ros-connector
+            -   file: intermediate/virtual-duckiebots/intro
+                sections:
+                    -   file: intermediate/virtual-duckiebots/dts-commands
+                    -   file: intermediate/virtual-duckiebots/virtual-drivers
+
+    -   caption: Developing
+        maxdepth: 2
+        numbered: False
+        chapters:
+            -   file: developing/00-get-started-dev
