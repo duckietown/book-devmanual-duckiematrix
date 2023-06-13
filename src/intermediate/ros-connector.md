@@ -86,4 +86,6 @@ node and the Duckiematrix engine.
 
 For convenience, an HTTP API endpoint is made available on the Duckiebot that will populate and
 publish this message for us. Such endpoint is available at the URL 
-`http://ROBOT_NAME.local/ros/duckiematrix/connect?matrix=...&uri=...&entity=...`.
+`http://ROBOT_NAME.local/ros/duckiematrix/connect?&matrix="..."&uri="..."&entity="..."&`.
+(i.e. by running`.curl "http://virtualduckiebot.local/ros/duckiematrix/connect?&matrix="test"&uri="192.168.0.86
+"&entity="map_0/vehicle_0"&")
