@@ -39,7 +39,7 @@ dts devel run -X
 You should see a matplotlib window pop up and the vehicle inside the
 Duckiematrix start moving.
 
-```{video} ../../../_images/examples/lane_following_demo.mp4
+```{vimeo} 835872522
 
 Lane following running in the Duckiematrix
 ```
