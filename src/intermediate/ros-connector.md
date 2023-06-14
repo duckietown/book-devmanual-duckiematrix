@@ -50,10 +50,10 @@ counterparts inside the Duckiematrix.
 We can use the following command to attach a Duckiebot to a running Duckiematrix,
 
 ```shell
-dts matrix attach [-e ENGINE_HOSTNAME] ROBOT_NAME ENTITY_NAME
+dts matrix attach [-e ENGINE_HOSTNAME] VIRTUAL_ROBOT_NAME ENTITY_NAME
 ```
 
-where `ROBOT_NAME` is the name of the Duckiebot outside the Duckiematrix and `ENTITY_NAME` is the
+where `VIRTUAL_ROBOT_NAME` is the name of the Duckiebot outside the Duckiematrix and `ENTITY_NAME` is the
 name of the virtual entity inside the Duckiematrix we want to connect to, for example, `map_0/vehicle_0`.
 
 
@@ -81,9 +81,9 @@ and `entity` is the name of the virtual Duckiebot inside the Duckiematrix map th
 attach our Duckiebot to.
 
 Publishing an instance of this message on the ROS network of the Duckiebot on the ROS topic 
-`/ROBOT_NAME/duckiematrix/connect` will trigger the creation of a connection between every driver
+`/VIRTUAL_ROBOT_NAME/duckiematrix/connect` will trigger the creation of a connection between every driver
 node and the Duckiematrix engine.
 
 For convenience, an HTTP API endpoint is made available on the Duckiebot that will populate and
 publish this message for us. Such endpoint is available at the URL 
-`http://ROBOT_NAME.local/ros/duckiematrix/connect?matrix=...&uri=...&entity=...`.
+`http://VIRTUAL_ROBOT_NAME.local/ros/duckiematrix/connect?matrix=...&uri=...&entity=...`.

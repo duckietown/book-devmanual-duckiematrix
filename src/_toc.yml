@@ -39,6 +39,7 @@ parts:
                 sections:
                     -   file: intermediate/virtual-duckiebots/dts-commands
                     -   file: intermediate/virtual-duckiebots/virtual-drivers
+                    -   file: intermediate/virtual-duckiebots/connecting-to-matrix
 
     -   caption: Developing
         maxdepth: 2

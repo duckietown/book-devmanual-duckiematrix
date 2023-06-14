@@ -2,6 +2,8 @@
 
 Virtual drivers allow communication between the Duckiebot
 ROS stack and the entity in the Duckiematrix.
+
+(driver-implementation-status)=
 ## Implementation status
 ```{list-table}
 :header-rows: 1
