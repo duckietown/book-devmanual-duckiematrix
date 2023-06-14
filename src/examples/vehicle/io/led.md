@@ -37,3 +37,6 @@ dts devel run -X
 ```
 
 You should see the Duckiebot's LEDs changing in the Duckiematrix.
+
+```{vimeo} 835872551
+```

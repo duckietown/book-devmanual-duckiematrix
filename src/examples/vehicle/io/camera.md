@@ -38,3 +38,7 @@ dts devel run -X
 
 You should see a matplotlib window pop up rendering the image captured
 by the vehicle's camera in the Duckiematrix.
+
+```{image} ../../../_images/examples/camera_io.png
+:width: 600px
+```

@@ -57,6 +57,11 @@ In the Duckiematrix window:
 
 ## Step 5: Wait for a good detection
 
+```{figure} ../../../_images/examples/extrinsic_calibration.png
+
+Detected corners in the calibration procedure
+```
+
 The matplotlib window opened during Step 3 will show the corners detected 
 on the patterned board. Once you see a clear and correct detection of all corners, 
 press <kbd>ENTER</kbd> in the terminal from Step 3 and the estimated homography
