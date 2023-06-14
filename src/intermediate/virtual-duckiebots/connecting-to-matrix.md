@@ -59,6 +59,11 @@ Then we can execute:
 
 taking care of replacing the parameters with the correct values.
 
+```{note}
+You can find more details on the connections process between the virtual Duckiebots and the Duckiematrix in the
+[](ros-connector) section.
+```
+
 ## 4. Connect to the virtual Duckiebot
 
 The virtual Duckiebot now will behave just as a real one would (depending on the supported features, see [](driver-implementation-status) ).
