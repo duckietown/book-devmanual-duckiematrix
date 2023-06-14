@@ -59,7 +59,7 @@ Then we can execute:
 
 taking care of replacing the parameters with the correct values.
 
-```{note}
+```{see-also}
 You can find more details on the connections process between the virtual Duckiebots and the Duckiematrix in the
 [](ros-connector) section.
 ```
