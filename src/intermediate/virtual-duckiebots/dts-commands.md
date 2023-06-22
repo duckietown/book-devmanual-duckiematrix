@@ -1,4 +1,4 @@
-=(virtual-duckiebots-dts-commands)
+(virtual-duckiebots-dts-commands)=
 # DTS commands
 
 You can interact with the virtual Duckiebots using the duckietown-shell. Always make sure to have the latest version

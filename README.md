@@ -1,6 +1,6 @@
 # Template: template-book
 
-This template provides a boilerplate repository for books in Duckietown.
+This template provides a boilerplate repository for books in Duckietown. 
 
 
 ## What to change
