@@ -1,0 +1,8 @@
+name: "book-devmanual-duckiematrix"
+maintainer:
+    name: "Andrea F. Daniele"
+    email: "afdaniele@duckietown.com"
+description: "Learn how to develop in a photo-realistic 3D Duckietown world"
+version: 0.0.0
+# pick an icon from: https://fontawesome.com/v4.7.0/icons/
+icon: book
