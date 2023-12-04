@@ -1,5 +1,5 @@
 (book)=
-# Welcome to the Duckiematrix Documentation!
+# The Duckiematrix Manual
 
 ```{figure} _images/introduction/duckiematrix.jpg
 :width: 100%
