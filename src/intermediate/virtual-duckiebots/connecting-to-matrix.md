@@ -6,10 +6,7 @@ This allows to test in a photorealistic simulation the entire stack of the Ducki
 testing of developed ROS nodes or custom Docker images.
 
 ```{attention}
-Make sure that the shell is set to the `ente` version with:
-
-    dts --set-version ente
-
+Make sure that the shell is using an `ente` profile.
 ```
 
 ## 1. Start the virtual robot
