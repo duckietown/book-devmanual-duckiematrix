@@ -33,7 +33,7 @@ dts matrix run --standalone --map ../../../maps/loop_0
 
 You should see a Duckiematrix renderer pop up.
 
-```note
+```{note}
 If you are running on MacOS you will see the Finder open and you should click on the Duckiematrix icon to start the renderer
 ```
 
