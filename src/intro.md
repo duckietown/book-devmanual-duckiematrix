@@ -1,7 +1,7 @@
 (book)=
 # The Duckiematrix Manual
 
-```{figure} _images/introduction/duckiematrix.jpg
+```{figure} _images/introduction/duckiematrix-crop.jpg
 :width: 100%
 :align: center
 
