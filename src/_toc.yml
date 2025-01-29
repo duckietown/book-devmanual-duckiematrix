@@ -49,6 +49,7 @@ parts:
         numbered: False
         chapters:
             -   file: developing/00-get-started-dev
+            -   file: developing/modifying-unity-entities.md
             -   file: developing/physics-engines
                 sections:
                     -  file: developing/physics/rotorpy-ardupilot-conventions
