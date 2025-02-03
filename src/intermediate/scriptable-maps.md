@@ -5,6 +5,7 @@
 ```python
 from duckiematrix_engine.template import MatrixEntityBehavior
 
+
 class MyBehavior(MatrixEntityBehavior):
 
     def __init__(self, *args):

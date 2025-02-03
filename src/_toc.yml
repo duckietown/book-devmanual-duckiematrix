@@ -23,9 +23,9 @@ parts:
             -   file: get-started/python-sdk
             -   file: examples/intro
                 sections:
-                    -   file: examples/vehicle/calibration/camera
                     -   file: examples/vehicle/io/camera
                     -   file: examples/vehicle/io/led
+                    -   file: examples/vehicle/calibration/camera-extrinsics
                     -   file: examples/vehicle/demos/lane-following
 
     -   caption: Intermediate
@@ -35,11 +35,11 @@ parts:
             -   file: intermediate/remote-engine
             -   file: intermediate/scriptable-maps
             -   file: intermediate/ros-connector
-            -   file: intermediate/virtual-duckiebots/intro
+            -   file: intermediate/virtual-duckietown-robots/intro
                 sections:
-                    -   file: intermediate/virtual-duckiebots/dts-commands
-                    -   file: intermediate/virtual-duckiebots/virtual-drivers
-                    -   file: intermediate/virtual-duckiebots/connecting-to-matrix
+                    -   file: intermediate/virtual-duckietown-robots/dts-commands
+                    -   file: intermediate/virtual-duckietown-robots/virtual-drivers
+                    -   file: intermediate/virtual-duckietown-robots/connecting-to-matrix
             -   file: intermediate/map-layers/intro
                 sections:
                     -   file: intermediate/map-layers/frames

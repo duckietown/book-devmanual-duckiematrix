@@ -1,28 +1,19 @@
 (intro-capabilities)=
 # Capabilities
 
-The Duckiematrix was born to serve as the base rendering engine for 3D applications
-in Duckietown.
+The Duckiematrix was built to serve as the base rendering engine for 3D applications in Duckietown.
+It is capabile of:
 
-- Embedded capabilities to simulate sensors like cameras, wheel encoders,
-  time-of-flight lidars, IMUs, etc make it perfect for simulating robots in Duckietown;
+- Simulating sensors, such as cameras, wheel encoders, time-of-flight lidars, IMUs, etc.
 
-- A proprietary, high-performance, distributed rendering orchestrator allows the simulation
-  of arbitrarily large fleets of robots by distributing the rendering tasks across
-  multiple GPUs/computers over the network;
+- Simulating arbitrarily large fleets of robots, by distributing the rendering tasks across multiple GPUs/computers over the network, thanks to Duckietown's proprietary high-performance distributed rendering orchestrator
 
-- A naturally distributed architecture with a central configurator node removes any needs
-  for network configurations;
+- Working without the need for network configuration, due to its naturally distributed architecture and central configurator node
 
-- Over-the-network rendering makes it easy to develop video games, education-on-demand portals,
-  virtual gatherings platforms, live broadcasting of public (or private) events like competitions
-  or research experiments, all in a fully navigable 3D environment;
+- Over-the-network rendering, making it easy to develop video games, education-on-demand portals, virtual gathering platforms, live broadcasting of public or private events, such as competitions and research experiments, within a fully navigable 3D environment
 
-- Environment representation based on the
-  [multi-layer world definition format](https://ethidsc.atlassian.net/wiki/spaces/DS/pages/448593943/Design+Document+Duckieworld+format)
-  provides human-readable map representations that are easily extendable.
+- Representing environments based on the [multi-layer world definition format](https://ethidsc.atlassian.net/wiki/spaces/DS/pages/448593943/Design+Document+Duckieworld+format), providing human-readable map representations that are easily extendable
 
-- The `Scriptable Map` feature allows the definition of custom behaviors using Python scripts
-  embedded alongside the map definition.
+- Accepting custom behaviors, using Python scripts embedded alongside the map definition, thanks to the `Scriptable Map` feature
 
-- Executable locally without the need for persistent internet connections.
+- Local executability, removing the need for a persistent internet connection

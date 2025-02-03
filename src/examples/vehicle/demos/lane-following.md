@@ -1,54 +1,39 @@
 # Demo: Lane Following
 
-
 ## Introduction
 
-This demo reproduces the lane following demo by executing each of the libraries in the pipeline. There is no ROS involved, it is pure python.
+This demo reproduces the lane following demo by executing each of the libraries in the pipeline.
+There is no `ROS` involved, it is pure python.
 
-To find the demo clone the [duckiematrix-examples](https://github.com/duckietown/duckiematrix-examples) repository and navigate to the `duckiematrix-examples/vehicle/demos/lane_following` directory. 
-
-This demo is designed to work properly with the map `loop_0` that  you will also find
-in the `duckiematrix-examples/maps` directory.
-Using this demo with a vehicle with different camera/kinematics
-parameters from those in `map_0/vehicle_0` in the map `loop_0` will affect
-the behavior.
+This demo is designed to work with the map `loop_0`, which can be found in the `duckiematrix-examples` repository.
+For this demo, using a different map might not produce the expected result, as the requested vehicle might not be present in the other map.
 
 
 ## Step 1: Build the demo
 
-From the demo directory, run the following command to build the demo.
+To build the demo, open a terminal and run the following command from the `duckiematrix-examples/vehicle/demos/lane_following` directory:
 
-```shell
-dts devel build --pull
-```
+    dts devel build --pull
 
 
 ## Step 2: Run the Duckiematrix
 
-Run the following command, also from inside the demo directory:
+To launch the Duckiematrix renderer on the map `loop_0`, open another terminal and run the following command from the `duckiematrix-examples/maps` directory:
 
-```shell
-dts matrix run --standalone --map ../../../maps/loop_0
-```
-
-You should see a Duckiematrix renderer pop up.
+    dts matrix run --standalone --map loop_0
 
 ```{note}
 If you are running on MacOS you will see the Finder open and you should click on the Duckiematrix icon to start the renderer
 ```
 
+
 ## Step 3: Run the demo
 
-Run the following command from inside this directory to run the demo (you will need a new shell for this).
+To run the demo, once built, run the following command in the first terminal:
 
-```shell
-dts devel run -X
-```
+    dts devel run -X
 
-You should see a matplotlib window pop up and the vehicle inside the
-Duckiematrix start moving.
+You should see a `matplotlib` window pop up and the Duckiebot starting to move, as shown in the following video:
 
 ```{vimeo} 835872522
-
-Lane following running in the Duckiematrix
 ```

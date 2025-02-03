@@ -1,21 +1,25 @@
 (install-duckiematrix)=
 # Installation
 
+As we found out in the [](intro-architecture) section, for an instance of the Duckiematrix to work properly,
+you need two components:
 
-As we found out in :ref:`Architecture`, for an instance of the Duckiematrix to work properly,
-you need two components: an **engine** and a **renderer**.
+- An **engine**
+
+- A **renderer**
+
 
 (install-duckiematrix-engine)=
-## Install the Engine
+## Install the engine
 
-The Duckiematrix Engine comes as a Docker image called `duckietown/dt-duckiematrix`.
+The **engine** comes as a Docker image called `duckietown/dt-duckiematrix`.
 This image is automatically downloaded when needed, so you don't need to do anything for now.
 
 
 (install-duckiematrix-renderer)=
-## Install the Renderer
+## Install the renderer
 
-The renderer can be installed using `dts`.
+The **renderer** can be installed using `dts`.
 
 ```{note}
 Make sure you have `dts` installed. 
@@ -24,11 +28,7 @@ You can install it by following the [official instructions](book-opmanual-duckie
 
 You can install the renderer using the command:
 
-```bash
-dts matrix install
-```
+    dts matrix install
 
-This command should download the latest version of the renderer available from the internet
-and unpack it into `~/.duckietown/duckiematrix/releases/`.
-If you experience any issues with this command, please open an issue
-[here](https://github.com/duckietown/duckietown-shell-commands/issues).
+This command should download the latest available version of the renderer and unpack it into `~/.duckietown/duckiematrix/releases`.
+If you experience any issues with this command, please open an issue [here](https://github.com/duckietown/duckietown-shell-commands/issues).
