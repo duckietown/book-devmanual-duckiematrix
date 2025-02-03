@@ -23,7 +23,7 @@ To obtain the IP address of the Duckiematrix, you can start it with the `--verbo
 
     dts matrix run --standalone --sandbox --verbose
 
-In this case we are running the matrix in the `standalone` mode (both the engine and renderer) and using the `sandbox` map.
+In this case, we are running the matrix in the `standalone` mode (both the engine and renderer) and using the `sandbox` map.
 Once the Duckiematrix has started, there will be a list of different IP addresses where it is reachable and the respective networks it can be reached from.
 Since the ROS containers on the Duckietown robot are connected to their own Docker network, we need to use the Duckiematrix IP address that is reachable from the local network, labeled `(local network only)`:
 

@@ -30,7 +30,7 @@ While this is the mode that most closely resembles the real behavior of a robot 
 realtime mode are not reproducible.
 Therefore, the scientific community prefers systems that run in synchronous mode.
 
-The job of the engine in this case is to run the physics engine on the commands from the world side whenever they are available and bridge data from the matrix side over to the world side.
+The job of the engine, in this case, is to run the physics engine on the commands from the world side whenever they are available and bridge data from the matrix side over to the world side.
 
 
 (mode-gym)=

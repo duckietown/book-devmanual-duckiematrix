@@ -48,7 +48,7 @@ There are no special network requirements for this case, as the engine and rende
 
 This is a more common case, and allows for the scattering of renderers around a local network.
 This is very useful when we want to speed up the simulation process by distributing the rendering tasks among several machines.
-The only requirement in this case is that all of the renderers can reach the network in which the engine resides.
+The only requirement, in this case, is that all of the renderers can reach the network in which the engine resides.
 
 
 (run-engine-public-network)=
