@@ -4,6 +4,7 @@
 ```{figure} _images/introduction/duckiematrix-crop.jpg
 :width: 100%
 :align: center
+:alt: The Duckiematrix teaser
 
 Inside the Duckiematrix
 ```
