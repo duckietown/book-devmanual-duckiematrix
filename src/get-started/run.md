@@ -15,7 +15,7 @@ The easiest way to enter a session of the Duckiematrix is to run it in **standal
 **Sandbox** mode loads one of the example maps that comes with the platform.
 To start a local engine and renderer, run:
 
-    dts matrix run --standalone --sandbox
+    dts matrix run --standalone --sandbox --tutorial
 
 
 (run-duckiematrix-with-remote-engine)=
