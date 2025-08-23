@@ -1,55 +1,29 @@
-  # Table of contents
+# Table of contents
 # Learn more at https://jupyterbook.org/customize/toc.html
-
 format: jb-book
 root: intro
 parts:
     -   caption: Introduction
-        maxdepth: 2
+        maxdepth: 1
         numbered: False
         chapters:
-            -   file: introduction/capabilities
             -   file: introduction/architecture
             -   file: introduction/sides
-    -   caption: Get Started
-        maxdepth: 2
-        numbered: False
-        chapters:
-            -   file: get-started/installation
-            -   file: get-started/run
-            -   file: get-started/world-links
-            -   file: get-started/modes
-            -   file: get-started/custom-map
-            -   file: get-started/python-sdk
-            -   file: examples/intro
-                sections:
-                    -   file: examples/vehicle/io/camera
-                    -   file: examples/vehicle/io/led
-                    -   file: examples/vehicle/calibration/camera-extrinsics
-                    -   file: examples/vehicle/demos/lane-following
-
+            -   file: introduction/running-the-duckiematrix
+            -   file: introduction/attaching-a-duckietown-robot-to-a-duckiematrix-entity
+            -   file: introduction/dtps
     -   caption: Intermediate
         maxdepth: 2
         numbered: False
         chapters:
-            -   file: intermediate/remote-engine
-            -   file: intermediate/scriptable-maps
-            -   file: intermediate/ros-connector
-            -   file: intermediate/virtual-duckietown-robots/intro
+            -   file: intermediate/maps/intro
                 sections:
-                    -   file: intermediate/virtual-duckietown-robots/dts-commands
-                    -   file: intermediate/virtual-duckietown-robots/virtual-drivers
-                    -   file: intermediate/virtual-duckietown-robots/connecting-to-matrix
-            -   file: intermediate/map-layers/intro
+                    -   file: intermediate/maps/custom-maps
+            -   file: intermediate/links
+            -   file: intermediate/modes
+            -   file: intermediate/engine-reachability-domains
+            -   file: intermediate/virtual_duckietown_robots/intro
                 sections:
-                    -   file: intermediate/map-layers/frames
-
-    -   caption: Developing
-        maxdepth: 2
-        numbered: False
-        chapters:
-            -   file: developing/00-get-started-dev
-            -   file: developing/modifying-unity-entities.md
-            -   file: developing/physics-engines
-                sections:
-                    -  file: developing/physics/rotorpy-ardupilot-conventions
+                    -   file: intermediate/virtual_duckietown_robots/dts-commands
+                    -   file: intermediate/virtual_duckietown_robots/drivers
+            -   file: intermediate/demonstrations
