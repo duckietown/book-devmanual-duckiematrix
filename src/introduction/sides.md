@@ -1,38 +1,55 @@
-(intro-matrix-vs-world)=
-# Matrix vs World
+# Sides
 
-In a running instance of Duckiematrix, we distinguish between two sides:
-
-- The **matrix** side
-
-- The **world** side
-
-```{figure} ../_images/introduction/block-architecture-2.jpg
-:width: 100%
-:align: center
-
-Block diagram of a simple Duckiematrix network
+```{seo}
+:description: The Duckiematrix's sides.
+:keywords: Duckietown, Duckiematrix, sides
 ```
 
+This chapter describes the Duckiematrix's sides.
 
-(intro-matrix-side)=
-## The matrix side
+```{needget}
+Completed [](architecture.md).
+---
+Knowledge on the Duckiematrix's sides.
+```
 
-The **matrix** side contains all of the renderers.
-When we say that something happens on the matrix side, we mean that it is something that is computed, or an event that has occurred, in one or many renderers.
+(introduction-sides-introduction)=
+## Introduction
 
+An instance of the Duckiematrix has two sides:
 
-(intro-world-side)=
-## The world side
+* The `Matrix` side.
+* The `World` side.
 
-The **world** side is where we (human) users and robots reside.
-Note that we are not making a distinction between virtual and physical robots here.
-Robots, intended as computing entities, whether virtual or physical, always reside on the world side. Their sensors and actuators though, reside on the matrix side.
+(introduction-sides-the-matrix-side)=
+## The Matrix side
 
-Any world entity (e.g., user, algorithm, robot, etc.) that interacts with the engine from the world side is called **agent**.
+The `Matrix` side contains all of the `Renderers`.
 
+```{note}
+When something is said to happen on the `Matrix` side, it means that it is something that is computed, or an event that occurs, in one or more `Renderers`.
+```
 
+(introduction-sides-the-world-side)=
+## The World side
+
+The `World` side is where we (human) users and robots reside.
+Any `World` entity (e.g., user, algorithm, robot, etc.) that interacts with the `Engine` from the `World` side is known as an `Agent`.
+
+```{note}
+We are not making a distinction between physical and virtual robots here.
+Robots, intended as computing entities, whether  physical or virtual, always reside on the `World` side. Their sensors and actuators though, reside on the `Matrix` side.
+```
+
+(introduction-sides-the-engine-has-no-side)=
 ## The Engine has no side
 
-Sitting between the world side and matrix side, the engine does not belong to either.
-In a Duckiematrix network, the engine is responsible for, among other things, bridging data between the two sides, ensuring that everyone gets what they need from the other side.
+Sitting between the `World` and `Matrix` sides, the `Engine` does not belong to either.
+In a `Network`, the `Engine` is responsible for, among other things, bridging data between the two sides, ensuring that each side gets what it needs from the other.
+
+```{figure} ../_images/introduction/block-architecture-2.jpg
+:name: fig:block-architecture-2
+:alt: A block diagram of a simple `Network`.
+
+A block diagram of a simple `Network`.
+```
