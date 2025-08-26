@@ -39,7 +39,7 @@ Data types exchanged with the Duckiematrix by the virtual Duckietown robot drive
 * - Time-of-Flight
   - Yes
 * - IMU
-  - No
+  - Yes
 * - LED
   - Yes
 * - Encoder
